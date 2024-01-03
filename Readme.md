@@ -1,9 +1,9 @@
-LaTeX-Unterlagen
+# LaTeX-Unterlagen
 <===============>
 
 "In diesem Repository befinden sich die LaTeX-Unterlagen zum Modul."
 
-Inhalt
+## Inhalt
 <---->
 
 Der Inhalt entspricht dem Text der Aufgabe 2 des Moduls.
@@ -12,7 +12,7 @@ Es kann sinnvoll sein, sich die PDF zur Aufgabe 2 noch einmal
 anzusehen
 
 
-PDF erstellen
+## PDF erstellen
 <----------->
 
 Das geht ganz schnell und einfach:
@@ -24,7 +24,7 @@ Das geht ganz schnell und einfach:
 	"latexmk -pdf ./task.tex"
 
 
-!!ACHTUNG!!
+### !!ACHTUNG!!
 
 LaTeX erstelle einige nervige Dateien (.aux, .log) diese muss man loeschen bevor
 man einen Commit mit seinen Aenderungen macht!
