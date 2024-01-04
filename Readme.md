@@ -14,11 +14,9 @@ anzusehen
 
 Das geht ganz schnell und einfach:
 
--> Zuerst installieren wir LaTeX (tug.org/texlive/)
-
+-> Zuerst installieren wir LaTeX (tug.org/texlive/)  
 -> Dann nutzen wir PDFLaTeX zum Erstellen des PDF
-	"pdflatex ./task.tex" (Das muessen wir mehrfach machen, damit die PDF auch fertig wird.)
-	
+	"pdflatex ./task.tex" (Das muessen wir mehrfach machen, damit die PDF auch fertig wird.)  
 -> Alternativ koennen wir auch einfach LaTeX Mk nutzen 
 	"latexmk -pdf ./task.tex"
 
