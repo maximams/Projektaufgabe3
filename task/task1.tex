@@ -18,16 +18,11 @@
 \renewcommand{\contentsname}{Inhaltsverzeichnis} 
 \tableofcontents 
 
-\vspace{2em}
+\vspace{1em}
 
 \section*{1. Projektaufgabe}
 \addcontentsline{toc}{section}{1. Projektaufgabe}
-
-\subsection*{1.1 Einleitung}
-\addcontentsline{toc}{subsection}{1.1 Einleitung}
 In dieser Aufgabe beschäftigen wir uns mit Objektorientierung in Python. Der Fokus liegt auf der Implementierung einer Klasse, wobei wir insbesondere auch Magic Methods nutzen.\\
-
-\vspace{2em}
 
 \renewcommand{\figurename}{Abbildung}
 \begin{figure}[htbp]
@@ -36,7 +31,13 @@ In dieser Aufgabe beschäftigen wir uns mit Objektorientierung in Python. Der Fo
   \caption{Darstellung der Klassenbeziehungen.\normalsize}
 \end{figure}
 
-\newpage
+\subsection*{1.1 Einleitung}
+\addcontentsline{toc}{subsection}{1.1 Einleitung}
+Ein Datensatz besteht aus mehreren Daten, ein einzelnes Datum wird durch ein Objekt der Klasse "DataSetItem" repräsentiert. Jedes Datum hat einen Namen (Zeichenkette), eine ID (Zahl) und bel. Inhalt. \footnote{$^{*}$ Die Dateien befinden sich im Ordner "/code/" dieses Git-Repositories.}\\
+Nun sollen mehrere Daten, Objekte vom Typ "DataSetItem", in einem Daten- satz zusammengefasst werden. Sie haben sich schon auf eine Schnittstelle und die benötigen Operationen, die ein Datensatz unterstützen muss, geeinigt. Es gibt eine Klasse "DataSetInterface", die die Schnittstelle definiert und Opera- tionen jedes Datensatzes angibt. Bisher fehlt aber noch die Implementierung eines Datensatzes mit allen Operationen. 
+\\
+Implementieren Sie eine Klasse "DataSet" als eine Unterklasse von "DataSet- Interface".
+
 \subsubsection*{1.2 Aufbau}
 \addcontentsline{toc}{subsubsection}{1.2 Aufbau}
 Es gibt drei Dateien, \texttt{dataset.py}, \texttt{main.py} und \texttt{implementation.py}$^{*}$. In der \texttt{dataset.py} befinden sich die Klassen \texttt{DataSetInterface} und \texttt{DataSetItem}, in der Datei \texttt{implementation.py} muss die Klasse \texttt{DataSet} implementiert werden. Die Datei \texttt{main.py} nutzt die Klassen \texttt{DataSet} und \texttt{DataSetItem} aus den jeweiligen Dateien und testet die Schnittstelle und Operationen von \texttt{DataSetInterface}.\\
@@ -61,6 +62,5 @@ Bei der Klasse \texttt{DataSet} sind insbesondere folgende Methoden zu implement
 \addcontentsline{toc}{section}{2. Abgabe}
 Programmieren Sie die Klasse \texttt{DataSet} in der Datei \texttt{implementation.py} zur Lösung der oben beschriebenen Aufgabe im VPL. Die benötigten Dateien können auch direkt auf Ihrem Computer heruntergeladen werden. Das VPL nutzt denselben Code, wobei die \texttt{main.py} um weitere Testfälle und Überprüfungen erweitert wurde. Diese Überprüfungen dienen dazu sicherzustellen, dass Sie die richtigen Klassen nutzen.
 
-\footnote{$^{*}$ Die Dateien befinden sich im Ordner "/code/" dieses Git-Repositories.}
 
 \end{document}
