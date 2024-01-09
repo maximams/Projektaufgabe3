@@ -4,8 +4,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{geometry}
+\usepackage{svg}
 
-\geometry{headheight=0cm}
+\geometry{headheight=0cm, top=2.5cm, bottom=3cm}
 
 \begin{document}
 
@@ -25,8 +26,15 @@
 \subsection*{1.1 Einleitung}
 \addcontentsline{toc}{subsection}{1.1 Einleitung}
 In dieser Aufgabe beschäftigen wir uns mit Objektorientierung in Python. Der Fokus liegt auf der Implementierung einer Klasse, wobei wir insbesondere auch Magic Methods nutzen.\\
-\includegraphics[width=12cm, height=5cm]{./../diagram/classes_files.png}\\
-\hspace*{3cm}\scriptsize\textbf{Abbildung 1:} Darstellung der Klassenbeziehungen.\normalsize
+
+\vspace{2em}
+
+\renewcommand{\figurename}{Abbildung}
+\begin{figure}[htbp]
+  \centering
+  \includesvg{classes_files.svg}
+  \caption{Darstellung der Klassenbeziehungen.\normalsize}
+\end{figure}
 
 \newpage
 \subsubsection*{1.2 Aufbau}
